@@ -4,14 +4,13 @@ import { FooterBase } from './styles';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+      <a href="https://gamerflix.vercel.app/">
+        <img src="https://i.imgur.com/7BNcriO.png" alt="Logo GamerFlix" width="150" height="50"/>
       </a>
       <p>
-        Orgulhosamente criado durante a
-        {' '}
-        <a href="https://www.alura.com.br/">
-          Imersão React da Alura
+        Aplicação desenvolvida por {' '}
+        <a href="https://vercel.com/thaliadev">
+          Thalia Rodrigues
         </a>
       </p>
     </FooterBase>

@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 const Button = styled.button`
     color: white;
-    border: 1px solid white;
+    //border: 1px solid orangered;
+    border-image: linear-gradient(to right, blue , orangered);
+    border-image-slice: 1;
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;

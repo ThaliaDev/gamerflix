@@ -1,137 +1,138 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Clássicos",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "#FF4500",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Jogos clássicos SNES para quem gosta de sentir aquela nostalgia",
+        "url": "https://snestalgia.blogspot.com/2018/04/top-100-jogos-de-super-nintendo.html"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "TOP 100 Melhores Jogos de Super Nintendo",
+          "url": "https://www.youtube.com/watch?v=hHnoTziUmLc"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Super Mario World",
+          "url": "https://www.youtube.com/watch?v=ejwxrD4E6io"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Sonic the Hedgehog 4 (SNES) - Walkthrough",
+          "url": "https://www.youtube.com/watch?v=uJUhCI6MnhU"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "SNES Longplay [212] Top Gear 2",
+          "url": "https://www.youtube.com/watch?v=aHatg2MXAKE"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Disney's The Lion King (1994)",
+          "url": "https://www.youtube.com/watch?v=2U_KYkyCzl0"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Tom and Jerry (SNES) Longplay [60]",
+          "url": "https://www.youtube.com/watch?v=RjNL6sOzTKQ"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "[LONGPLAY] SNES - Aladdin [100%] (4K, 60FPS)",
+          "url": "https://www.youtube.com/watch?v=G9m2gAuWkOY"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "The Magical Quest Starring Mickey Mouse (SNES) Longplay [79]",
+          "url": "https://www.youtube.com/watch?v=n7n6ftApKaw"
         }        
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Terror",
+      "cor": "#FF4500",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Jogos de terror, como sempre são emocionantes e dá aquele friozinho na barriga, confira.",
+        "url": "https://www.techtudo.com.br/listas/2020/02/os-melhores-jogos-de-terror-de-todos-os-tempos.ghtml"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Resident Evil 1 2 3 - Trilogy Marathon! (No Saves/No Deaths)",
+          "url": "https://www.youtube.com/watch?v=y7vqx5NBYGw"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Silent Hill 2 HD 1080p Walkthrough Longplay Gameplay Lets Play No Commentary",
+          "url": "https://www.youtube.com/watch?v=wh6LhkA3698"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Alone in the Dark: The New Nightmare PC Edward Carnby Longplay Walkthrough Gameplay No Commentary",
+          "url": "https://www.youtube.com/watch?v=NuXDH-SUbmQ"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "A HISTÓRIA DE LAYERS OF FEAR",
+          "url": "https://www.youtube.com/watch?v=_c-K7-13k24"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "A HISTÓRIA DE UNTIL DAWN",
+          "url": "https://www.youtube.com/watch?v=4K_P9F5pGm8"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Ação",
+      "cor": "#FF4500",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Alguns jogos simplesmente marcam muito a gente",
+        "url": "http://www.obrigadopelospeixes.com/2010/02/25/os-10-games-mais-marcantes-e-influentes-da-historia/"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Saga Assassin's Creed: Vale ou não a pena jogar",
+          "url": "https://www.youtube.com/watch?v=nO0emuFDuEE"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "GTA San Andreas #01 - O Inicio Nostálgico do Melhor Jogo!!! (SÉRIE)",
+          "url": "https://www.youtube.com/watch?v=XWa3j5MOsmc"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Saga Tomb Raider : Vale ou não a pena jogar - Parte 1/4",
+          "url": "https://www.youtube.com/watch?v=1sbpqWrTa-A"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "ALIEN ISOLATION - Parte 1: A CAÇADA COMEÇOU!!! [ PC - Playthrough ]",
+          "url": "https://www.youtube.com/watch?v=BIe58zZ85LQ"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Games & Filmes",
+      "cor": "#FF4500",
+      "link_extra": {
+        "text": "Alguns jogos se tornam tão populares que viram filmes, mas nem sempre é uma boa ideia",
+        "url": "http://g1.globo.com/tecnologia/games/noticia/2014/03/lista-tem-games-que-se-tornaram-filmes-mesmo-com-maldicao.html"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "NAO ASSISTA ESSE FILME - SUPER MARIO BROS",
+          "url": "https://www.youtube.com/watch?v=4dmV0umWrjU"
         },
         {
-          "titulo": "Gattaca",
+          "titulo": "Johnny Cage vs Scorpion • Mortal Kombat o Filme • Dublado HD",
           "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Resident Evil 4 - melhor combate do filme",
+          "url": "https://www.youtube.com/watch?v=mkzDc9b2Kx0"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Tomb Raider: A Origem - Trailer Oficial 1 (leg) [HD]",
+          "url": "https://www.youtube.com/watch?v=gvS1jR7Bdlg"
         }
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
+      "titulo": "New Gen Games",
+      "cor": "#FF4500",
+      
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "The Last of Us Part II – E3 2018 Gameplay Reveal Trailer | PS4",
+          "url": "https://www.youtube.com/watch?v=btmN-bWwv0A"
         },
         {
           "titulo": "Assassins Creed Valhalla",
@@ -152,32 +153,32 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "Jogos incríveis que ninguém conhece",
+      "cor": "#FF4500",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "O que não falta são jogos bons e pouco conhecidos, confira e se surpreenda!",
+        "url": "https://www.youtube.com/watch?v=bCgcXLPm5RQ"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Osiris: New Dawn - Early Access Launch Trailer",
+          "url": "https://www.youtube.com/watch?v=GxpSz2CzOko"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Sky Break Official Trailer",
+          "url": "https://www.youtube.com/watch?v=f8_r3CH1Q0c"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Hellraid - E3 2014 Trailer",
+          "url": "https://www.youtube.com/watch?v=R9SQpq6DUKA"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Astroneer - Official Launch Trailer",
+          "url": "https://www.youtube.com/watch?v=UMLwzt5t9bs"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Badiya Reveal Trailer",
+          "url": "https://www.youtube.com/watch?v=A_v0QWX2fEA"
         }
       ]
     }

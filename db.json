@@ -1,0 +1,16 @@
+{
+    "categorias":[
+        {
+        "id":1,
+        "nome":"Jogos classicos",
+        "descricao":"Jogos clássicos SNES para quem gosta de sentir aquela nostalgia",
+        "cor":"#FF4500"
+        },
+        {
+            "id":2,
+            "nome":"Terror",
+            "descricao":"Jogos de terror, como sempre são emocionantes e dá aquele friozinho na barriga, confira.",
+            "cor":"#FF4500"
+            }
+    ]
+}

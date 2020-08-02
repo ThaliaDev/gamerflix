@@ -5,6 +5,7 @@ const Button = styled.button`
     //border: 1px solid orangered;
     border-image: linear-gradient(to right, blue , orangered);
     border-image-slice: 1;
+    background:black;
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../../componentes/Menu'
+import Menu from '../../componentes/Menu';
 import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../componentes/BannerMain';
 import Carousel from '../../componentes/Carousel';
@@ -7,14 +7,14 @@ import Footer from '../../componentes/Footer';
 
 function Home() {
   return (
-    <div style={{background:"#141414"}}>
-      
+    <div style={{ background: '#141414' }}>
+
       <Menu />
 
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Conheça os melhores jogos de Super Nintendo nessa lista com o top 100 games de Snes!"}
+        videoDescription="Conheça os melhores jogos de Super Nintendo nessa lista com o top 100 games de Snes!"
       />
 
       <Carousel
@@ -28,19 +28,19 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[2]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[3]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[4]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[5]}
-      />      
+      />
 
       <Footer />
     </div>

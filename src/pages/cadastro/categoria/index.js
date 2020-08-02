@@ -29,7 +29,9 @@ function CadastroCategoria() {
       info.target.value,
     );
   }
-  const URL = 'https://gamerflix.herokuapp.com/categorias';
+  const URL = window.location.hostname.includes('localhost') 
+  ?'http://localhost:8080/categorias'
+  :'https://gamerflix.herokuapp.com/categorias';
   fetch(URL)
     .then(async (respostaServidor) => {
       const resposta = await respostaServidor.json();

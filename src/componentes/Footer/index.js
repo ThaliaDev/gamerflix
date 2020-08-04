@@ -8,10 +8,11 @@ function Footer() {
         <img src="https://i.imgur.com/7BNcriO.png" alt="Logo GamerFlix" width="150" height="50"/>
       </a>
       <p>
-        Aplicação desenvolvida por {' '}
+        Aplicação desenvolvida por {' '} 
         <a href="https://vercel.com/thaliadev">
-          Thalia Rodrigues
+          Thalia Rodrigues 
         </a>
+        {' '} durante a Imersão React - Alura.
       </p>
     </FooterBase>
   );

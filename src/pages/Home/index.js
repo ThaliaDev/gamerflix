@@ -1,26 +1,56 @@
-import React from 'react';
-import Menu from '../../componentes/Menu';
-import dadosIniciais from '../../data/dados_iniciais.json';
+import React, { useEffect, useState } from 'react';
+// import Menu from '../../componentes/Menu';
+// import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../componentes/BannerMain';
 import Carousel from '../../componentes/Carousel';
-import Footer from '../../componentes/Footer';
+// import Footer from '../../componentes/Footer';
+import categoriasRepository from '../../repositories/categorias';
+import PageDefault from '../../componentes/pagedefault';
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+  useEffect(() => {
+    // http://localhost:8080/categorias?_embed=videos
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        console.log(categoriasComVideos[0].videos[0]);
+        setDadosIniciais(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
-    <div style={{ background: '#141414' }}>
+    <PageDefault paddingAll={0}>
 
-      <Menu />
+      {dadosIniciais.lenght === 0 && (<div>Loading...</div>)}
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="Conheça os melhores jogos de Super Nintendo nessa lista com o top 100 games de Snes!"
-      />
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[0].videos[0].titulo}
+                url={dadosIniciais[0].videos[0].url}
+                videoDescription={dadosIniciais[0].videos[0].description}
+              />
+              <Carousel
+                ignoreFirstVideo
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
+      {/*
 
       <Carousel
         category={dadosIniciais.categorias[1]}
@@ -40,10 +70,9 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[5]}
-      />
+      /> */}
 
-      <Footer />
-    </div>
+    </PageDefault>
   );
 }
 

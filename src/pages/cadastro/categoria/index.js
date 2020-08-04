@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/pagedefault';
 import Formfield from '../../../componentes/Formfield';
 import Button from '../../../componentes/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,55 +11,20 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
-  const [categorias, setcategoria] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-  // setnomeCategoria = vai usar pra mudar
-  // Filmes está sendo só um valor inicial
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  const [categorias, setCategorias] = useState([]);
 
-  function setValue(chave, valor) {
-    // chave: nome, descricao
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(info) {
-    setValue(
-      info.target.getAttribute('name'),
-      info.target.value,
-    );
-  }
-  const URL = window.location.hostname.includes('localhost') 
-  ?'http://localhost:8080/categorias'
-  :'https://gamerflix.herokuapp.com/categorias';
-  fetch(URL)
-    .then(async (respostaServidor) => {
-      const resposta = await respostaServidor.json();
-      setcategoria([
-        ...resposta,
-      ]);
-    });
-  /*    useEffect(() => {
-      setTimeout(() => {
-        setcategoria([
-          ...categorias,
-          {
-            id: 1,
-            nome: 'Jogos classicos',
-            descricao: 'Jogos clássicos SNES para quem gosta de sentir aquela nostalgia',
-            cor: '#FF4500',
-          },
-          {
-            id: 2,
-            nome: 'Terror',
-            descricao: 'Jogos de terror, como sempre são emocionantes e dá aquele friozinho na barriga, confira.',
-            cor: '#FF4500',
-          },
-
+  useEffect(() => {
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://gamerflix.herokuapp.com/categorias';
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([...resposta,
         ]);
-      }, 1 * 1000);
-    }, []); */
+      });
+  }, []);
 
   return (
     <PageDefault>
@@ -68,11 +34,11 @@ function CadastroCategoria() {
       </h1>
       <form onSubmit={function handleSubmit(info) {
         info.preventDefault();
-        setcategoria([
+        setCategorias([
           ...categorias, values,
         ]);
 
-        setValue(valoresIniciais);
+        clearForm();
       }}
       >
         <Formfield
@@ -111,14 +77,16 @@ function CadastroCategoria() {
       }
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
-      <Link to="/">
+      <Button as={Link} className = "ButtonLink" to = "/">
         Ir pra home
-      </Link>
+      </Button>
+      <br/>
+      <br/>
     </PageDefault>
 
   );
